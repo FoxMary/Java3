@@ -1,4 +1,4 @@
-package hw1;
+package hw1.fruits;
 
 public class Apple extends Fruit {
     public Apple() {

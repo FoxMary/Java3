@@ -1,6 +1,6 @@
-package hw1;
+package hw1.fruits;
 
-public class Fruit {
+public abstract class Fruit {
     float weight;
 
     public Fruit(float weight) {

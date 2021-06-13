@@ -1,7 +1,6 @@
 package hw1;
 
 import java.util.*;
-
 /**
  * 1. Написать метод, который меняет два элемента массива местами. (массив может быть любого ссылочного типа)
  * 2. Написать метод, который преобразует массив в ArrayList
@@ -41,7 +40,17 @@ public class Main {
         list.set(index2, element);
     }
 
+    public static void changeByIndex1(List<Object> list, int index1, int index2) {      //аналог (дженерик ни на что не влияет
+        Object element = list.get(index1);
+        list.set(index1, list.get(index2));
+        list.set(index2, element);
+    }
+
     public static <T> void toArray(ArrayList<T> list, T[] arr) {
         Collections.addAll(list, arr);
+    }
+
+    public static <T> ArrayList<T> arrayToList(T[] arr) {               //аналог
+        return new ArrayList<>(Arrays.asList(arr));
     }
 }

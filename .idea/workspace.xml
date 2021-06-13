@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52092e5b-da70-49ba-83b8-cdee88e4089f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/MainFruits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw1/Orange.java" afterDir="false" />
+    <list default="true" id="52092e5b-da70-49ba-83b8-cdee88e4089f" name="Default Changelist" comment="hw1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/fruits/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/fruits/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/MainFruits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/MainFruits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw1/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/fruits/Orange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,6 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,7 +52,7 @@
       <module name="Java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw1.fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +65,7 @@
       <module name="Java3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw1.fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +101,7 @@
       <updated>1623582373602</updated>
       <workItem from="1623582374885" duration="23000" />
       <workItem from="1623582437617" duration="441000" />
-      <workItem from="1623583019477" duration="11922000" />
+      <workItem from="1623583019477" duration="27000" />
     </task>
     <servers />
   </component>
@@ -111,27 +109,7 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="hw1" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>

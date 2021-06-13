@@ -1,5 +1,7 @@
 package hw1;
 
+import hw1.fruits.Fruit;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -29,7 +31,8 @@ public class Box<T extends Fruit> {
         return Math.abs(this.getWeight() - o.getWeight()) < 0.0001;
     }
 
-    public void fill(Box<T> box) {
+    public void fill(Box<? super T> box) {
+        if (this == box) return;            //нельзя пересыпать в себя
         box.list.addAll(list);
         this.list.clear();
     }
